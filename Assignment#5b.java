@@ -14,7 +14,7 @@ public class RecursionB {
 		 Scanner scanner = new Scanner(System.in);
 		 
 		 //check if the numbr ha san integer in it.
-		 if(scanner.hasNextInt()) {
+		 if(scanner.hasNextInt() || scanner.nextInt() > 15) {
 	            int userNum = scanner.nextInt();       
 	            System.out.print(symmetricPattern(userNum));
 	        }
